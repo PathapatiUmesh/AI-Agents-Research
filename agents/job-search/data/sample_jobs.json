@@ -1,0 +1,50 @@
+[
+  {
+    "id": "job-001",
+    "title": "Senior DevOps Engineer",
+    "company": "FinTech Corp",
+    "location": "Hyderabad, India (Hybrid)",
+    "url": "https://example.com/jobs/senior-devops",
+    "description": "Kubernetes, Helm, Docker, CI/CD, AWS, Terraform. 5+ years. SLOs, Grafana, incident response. Python automation."
+  },
+  {
+    "id": "job-002",
+    "title": "Site Reliability Engineer (SRE)",
+    "company": "Global SaaS Inc",
+    "location": "Remote - India",
+    "url": "https://example.com/jobs/sre-remote",
+    "description": "SRE for multi-cloud platform. Kubernetes, error budgets, SLIs/SLOs, Splunk, on-call, MTTR reduction, Ansible."
+  },
+  {
+    "id": "job-003",
+    "title": "AI Platform Engineer",
+    "company": "Enterprise AI Labs",
+    "location": "Bangalore, India",
+    "url": "https://example.com/jobs/ai-platform",
+    "description": "Support ML/data science platform on Kubernetes. PySpark, Anaconda, Helm, Docker, Python, FastAPI, observability with Grafana."
+  },
+  {
+    "id": "job-004",
+    "title": "Frontend React Developer",
+    "company": "Startup UI Co",
+    "location": "Remote",
+    "url": "https://example.com/jobs/react",
+    "description": "React, TypeScript, CSS. 3 years frontend. No Kubernetes or DevOps required."
+  },
+  {
+    "id": "job-005",
+    "title": "Cloud Infrastructure Engineer",
+    "company": "Retail Cloud Services",
+    "location": "Hyderabad, India",
+    "url": "https://example.com/jobs/cloud-infra",
+    "description": "AWS, Azure, GCP multi-cloud. Grafana Enterprise, cost optimization, ServiceNow integration, Python REST APIs, CI/CD."
+  },
+  {
+    "id": "job-006",
+    "title": "Junior Data Analyst",
+    "company": "Analytics Shop",
+    "location": "Chennai, India",
+    "url": "https://example.com/jobs/analyst",
+    "description": "Excel, SQL, basic Python pandas. Entry level. No SRE or platform experience needed."
+  }
+]
