@@ -9,9 +9,8 @@ python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 
-# Run job-search agent (demo jobs, keyword scoring)
-python agents/job-search/run.py \
-  --resume resume-output/Umesh_Chandra_PV_ATS_Resume_DevOps_SRE_AI.txt
+# Run job-search agent (demo jobs, keyword scoring) — use one line, no backslash before flags
+python agents/job-search/run.py --resume resume-output/Umesh_Chandra_PV_ATS_Resume_DevOps_SRE_AI.txt
 ```
 
 See **[docs/GETTING_STARTED.md](docs/GETTING_STARTED.md)** for framework recommendations, career roadmap, and what to build today.

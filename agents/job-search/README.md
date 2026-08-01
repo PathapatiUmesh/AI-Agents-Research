@@ -17,8 +17,7 @@ Finds best-fit job openings from your resume, ranks them, and (in later phases) 
 source .venv/bin/activate  # from repo root
 pip install -r requirements.txt
 
-python -m agents.job_search.src.cli \
-  --resume ../../resume-output/Umesh_Chandra_PV_ATS_Resume_DevOps_SRE_AI.txt
+python agents/job-search/run.py --resume resume-output/Umesh_Chandra_PV_ATS_Resume_DevOps_SRE_AI.txt
 ```
 
 ## Architecture

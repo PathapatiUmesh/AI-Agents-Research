@@ -60,14 +60,11 @@ python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 
-# Demo mode (no API key) — keyword matching
-python agents/job-search/run.py \
-  --resume resume-output/Umesh_Chandra_PV_ATS_Resume_DevOps_SRE_AI.txt
+# Demo mode (no API key) — keyword matching (single line; do not put "\ " before --resume)
+python agents/job-search/run.py --resume resume-output/Umesh_Chandra_PV_ATS_Resume_DevOps_SRE_AI.txt
 
 # With LLM scoring (set OPENAI_API_KEY in .env)
-python agents/job-search/run.py \
-  --resume resume-output/Umesh_Chandra_PV_ATS_Resume_DevOps_SRE_AI.txt \
-  --use-llm
+python agents/job-search/run.py --resume resume-output/Umesh_Chandra_PV_ATS_Resume_DevOps_SRE_AI.txt --use-llm
 ```
 
 **Day 2–3:** Wire a job API (Adzuna, JSearch, or SerpAPI Google Jobs).
