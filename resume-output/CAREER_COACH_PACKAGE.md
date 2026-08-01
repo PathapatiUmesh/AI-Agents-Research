@@ -62,7 +62,7 @@
 | Chaos engineering | Yes | **No** | Prepare interview talking points; optional learning goal |
 | On-call / incident management | Yes | Partial | Strengthen with ServiceNow + MTTR stories |
 | AI/ML platform (Anaconda, PySpark) | Hybrid JD | Yes | Position as **AI Platform Engineer** differentiator |
-| Certifications (AWS/CKA/TF) | Preferred | **No** | Roadmap listed; prioritize AWS SAA or CKA |
+| Certifications (AWS/CKA/TF) | Preferred | **No** | Pursue offline; do **not** list “targeting” on the resume |
 | Quantified uptime / deploy freq | Yes | Partial | Continuity %, deploy success %, MTTR % now explicit |
 
 **Verdict:** Strong fit for **DevOps + Observability + AI Platform** roles. Primary gaps for FAANG/fintech SRE bars: **Terraform**, **Prometheus/OTel**, formal **SLO/error-budget ownership**, and **certs**.
